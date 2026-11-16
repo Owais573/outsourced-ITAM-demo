@@ -1,0 +1,131 @@
+# ==============================================================================
+# Outsourced ITAM — Official Git Ignore Configuration
+# Standard Operating Procedure & Enterprise Security Compliant
+# ==============================================================================
+
+# ------------------------------------------------------------------------------
+# 1. Security & Environment Credentials (Strictly Excluded)
+# ------------------------------------------------------------------------------
+.env
+.env.local
+.env.*.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.pem
+*.key
+*.cert
+*.crt
+*.pfx
+*.p12
+*.token
+*.secret
+credentials.json
+id_rsa*
+id_ed25519*
+
+# ------------------------------------------------------------------------------
+# 2. Node & Dependency Directories
+# ------------------------------------------------------------------------------
+node_modules/
+jspm_packages/
+web_modules/
+.pnp
+.pnp.js
+
+# Package Manager Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# ------------------------------------------------------------------------------
+# 3. Production Builds & Compiler Outputs
+# ------------------------------------------------------------------------------
+dist/
+dist-ssr/
+build/
+out/
+.cache/
+.parcel-cache/
+.turbo/
+*.tsbuildinfo
+
+# ------------------------------------------------------------------------------
+# 4. Agent Workspaces, Tooling & Virtual Environments
+# ------------------------------------------------------------------------------
+.agent/
+.agents/
+.antigravity/
+.venv/
+venv/
+ENV/
+env/
+scratch/
+
+# Python Bytecode & Cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# ------------------------------------------------------------------------------
+# 5. IDE, Editor & Tool Configuration
+# ------------------------------------------------------------------------------
+.idea/
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*~
+*.sublime-project
+*.sublime-workspace
+.fleet/
+
+# ------------------------------------------------------------------------------
+# 6. Operating System Artifacts
+# ------------------------------------------------------------------------------
+# macOS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+.directory
+.fuse_hidden*
+
+# ------------------------------------------------------------------------------
+# 7. Testing, Coverage & Linters
+# ------------------------------------------------------------------------------
+coverage/
+.nyc_output/
+.eslintcache
+.stylelintcache
+
+# ------------------------------------------------------------------------------
+# 8. Temporary & Backup Files
+# ------------------------------------------------------------------------------
+*.tmp
+*.temp
+*.bak
+*.backup
+*_backup.*
+test_out.*
