@@ -9,6 +9,7 @@
 </p>
 
 <p align="center">
+  <a href="https://github.com/Owais573/outsourced-ITAM-demo"><img src="https://img.shields.io/badge/GitHub-Repository-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Repository" /></a>
   <img src="https://img.shields.io/badge/Status-Seeded_Demo_Platform-00C8E8?style=for-the-badge&logo=react&logoColor=white" alt="Demo Status" />
   <img src="https://img.shields.io/badge/Standard-SOP_OPH--FA--PRO--0001_R1-05253D?style=for-the-badge&logo=files&logoColor=00C8E8" alt="SOP Standard" />
   <img src="https://img.shields.io/badge/Framework-React_18_%7C_Vite_6-61DAFB?style=for-the-badge&logo=vite&logoColor=white" alt="Vite + React" />
@@ -250,7 +251,7 @@ The application is completely optimized for mobile viewports (iPhone, iPad, and 
 ├── tailwind.config.js                # Tailwind CSS custom palette & typography
 ├── Outsourced_ITAM_Internal_Product_Showcase.pptx  # 10-slide executive showcase deck
 ├── PRESENTER_GUIDE.md                # Word-for-word presentation talk track & demo script
-└── IMPLEMENTATION_PLAN.md            # 18-phase backend & production roadmap
+└── FRONTEND_IMPLEMENTATION_PLAN.md   # Architectural blueprint & frontend implementation roadmap
 ```
 
 ---
@@ -277,9 +278,10 @@ The application is completely optimized for mobile viewports (iPhone, iPad, and 
 
 ### Installation
 
-1. **Clone or open the repository**:
+1. **Clone the repository**:
    ```bash
-   cd "f:\Outsourced-IT\Sample Outsourced ITAM"
+   git clone https://github.com/Owais573/outsourced-ITAM-demo.git
+   cd outsourced-ITAM-demo
    ```
 
 2. **Install dependencies**:
@@ -332,14 +334,14 @@ The platform supports direct deep-linking to any operational module via URL quer
 For presenting this product demo to internal IT leadership, operations directors, and executive management:
 
 - **Executive PowerPoint Presentation**:  
-  [Outsourced_ITAM_Internal_Product_Showcase.pptx](file:///f:/Outsourced-IT/Sample%20Outsourced%20ITAM/Outsourced_ITAM_Internal_Product_Showcase.pptx)  
+  [Outsourced_ITAM_Internal_Product_Showcase.pptx](./Outsourced_ITAM_Internal_Product_Showcase.pptx)  
   *10-slide widescreen presentation containing live platform screenshots, architecture boundaries, and delivery sequence.*
 - **Official Presenter Guide & Talk Track**:  
-  [PRESENTER_GUIDE.md](file:///f:/Outsourced-IT/Sample%20Outsourced%20ITAM/PRESENTER_GUIDE.md)  
+  [PRESENTER_GUIDE.md](./PRESENTER_GUIDE.md)  
   *Word-for-word talk track, slide-by-slide transitions, 6-step browser demo walkthrough, and anticipated stakeholder Q&A responses.*
-- **Engineering Implementation Plan**:  
-  [IMPLEMENTATION_PLAN.md](file:///f:/Outsourced-IT/Sample%20Outsourced%20ITAM/IMPLEMENTATION_PLAN.md)  
-  *18-phase backend, database schema, and production rollout architecture.*
+- **Architectural & Frontend Implementation Plan**:  
+  [FRONTEND_IMPLEMENTATION_PLAN.md](./FRONTEND_IMPLEMENTATION_PLAN.md)  
+  *Comprehensive domain model, operational requirements, UI component specifications, and roadmap.*
 
 ---
 
